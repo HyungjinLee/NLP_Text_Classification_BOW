@@ -27,10 +27,6 @@
 또한, 랜덤화(randomization)는 포레스트가 노이즈가 포함된 데이터에 대해서도 강인하게 만들어 준다. 랜덤화는 각 트리들의 훈련 과정에서 진행되며, 랜덤 학습 데이터 추출 방법을 이용한 앙상블 학습법인 배깅(bagging)과 랜덤 노드 최적화(randomized node optimization)가 자주 사용된다. 
 이 두 가지 방법은 서로 동시에 사용되어 랜덤화 특성을 더욱 증진 시킬 수 있다.
 
-![alt text](https://github.com/MSWon/Sentimental-Analysis/blob/master/pic/pic_4.png "Accuracy graph")
-
-   **epoch 4 이후에 overfitting이 되므로 epoch 4에서 early stopping을 한다.**
-
 ## 5. 결과
 
 ![result](./result.png)
